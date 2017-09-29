@@ -17,9 +17,12 @@ public class GetDot : MonoBehaviour {
 	}
 	
 	void OnCollisionEnter2D(Collision2D other){
-		Destroy(gameObject);
-		score++;
-		Debug.Log ("Score: " + score);
-		chomp.Play();
+		if(other.gameObject.tag == "Player"){
+			Destroy(gameObject);
+			score++;
+			Debug.Log ("Score: " + score);
+			chomp.Play();
+		}
+		
 	}
 }
