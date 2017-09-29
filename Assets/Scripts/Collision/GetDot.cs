@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class GetDot : MonoBehaviour {
 
+public class GetDot : MonoBehaviour {
+	public AudioSource chomp;
+	
 	public int score = 0;
 	// Use this for initialization
 	void Start () {
@@ -18,5 +20,6 @@ public class GetDot : MonoBehaviour {
 		Destroy(gameObject);
 		score++;
 		Debug.Log ("Score: " + score);
+		chomp.Play();
 	}
 }
