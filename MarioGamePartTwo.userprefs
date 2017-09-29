@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Behavior\GoombaWalk.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Collision\CollisionState.cs" Line="37" Column="1" />
+      <File FileName="Assets\Scripts\Managers\PlayerManager.cs" Line="23" Column="2" />
+      <File FileName="Assets\Scripts\Behavior\Jump.cs" Line="23" Column="7" />
+      <File FileName="Assets\Scripts\Behavior\AbstractBehavior.cs" Line="4" Column="46" />
+      <File FileName="Assets\Scripts\Input\InputManager.cs" Line="25" Column="24" />
+      <File FileName="Assets\Scripts\Managers\CameraController.cs" Line="19" Column="2" />
+      <File FileName="Assets\Scripts\Behavior\GoombaWalk.cs" Line="19" Column="32" />
+      <File FileName="Assets\Scripts\Behavior\Walk.cs" Line="34" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
