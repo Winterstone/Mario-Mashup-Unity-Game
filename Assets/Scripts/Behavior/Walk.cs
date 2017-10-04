@@ -39,7 +39,7 @@ public class Walk : AbstractBehavior {
 			body2d.velocity = new Vector2 (velX, body2d.velocity.y);
 		}	
 		
-		if (transform.position.y < (startPosition.y - 60))
+		if (transform.position.y < (startPosition.y - 100))
 		{
 			if(!soundPlayed)
 			{
