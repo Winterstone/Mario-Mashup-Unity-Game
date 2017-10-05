@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{93382118-5C3A-01BE-E68D-EF3E3509C385}</ProjectGuid>
+    <ProjectGuid>{230B1E43-1329-98E3-5EB0-77E9C1D666E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,11 +55,15 @@
      <Compile Include="Assets\Scripts\Behavior\FaceDirection.cs" />
      <Compile Include="Assets\Scripts\Behavior\GoombaWalk.cs" />
      <Compile Include="Assets\Scripts\Behavior\Jump.cs" />
+     <Compile Include="Assets\Scripts\Behavior\PowerUpMove.cs" />
      <Compile Include="Assets\Scripts\Behavior\SimpleMovement.cs" />
      <Compile Include="Assets\Scripts\Behavior\Walk.cs" />
      <Compile Include="Assets\Scripts\Collision\Collectable.cs" />
      <Compile Include="Assets\Scripts\Collision\CollisionState.cs" />
      <Compile Include="Assets\Scripts\Collision\GetDot.cs" />
+     <Compile Include="Assets\Scripts\Collision\Player_Die.cs" />
+     <Compile Include="Assets\Scripts\Collision\PowerupCollision.cs" />
+     <Compile Include="Assets\Scripts\Collision\QuestionCollision.cs" />
      <Compile Include="Assets\Scripts\Input\InputManager.cs" />
      <Compile Include="Assets\Scripts\Input\InputState.cs" />
      <Compile Include="Assets\Scripts\Managers\CameraController.cs" />

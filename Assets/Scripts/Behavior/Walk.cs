@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Walk : AbstractBehavior {
 
@@ -45,7 +46,8 @@ public class Walk : AbstractBehavior {
 			{
 				death.Play();
 				soundPlayed = true;
-			}
+
+			}			 
 			
 			
 		}
